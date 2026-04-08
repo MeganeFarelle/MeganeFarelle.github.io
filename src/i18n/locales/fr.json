@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "about": "À propos",
+    "work": "Projets",
+    "testimonials": "Témoignages",
+    "resume": "CV",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Megane",
+    "subtitle": "Je développe des visuels 3D,\ndes interfaces et des applications web",
+    "scrollDown": "Défiler vers le bas"
+  },
+  "about": {
+    "subText": "Introduction",
+    "title": "Présentation.",
+    "description": "Je suis une développeuse logicielle expérimentée en TypeScript et JavaScript, avec une expertise dans des frameworks comme React, Node.js et Three.js. J'apprends rapidement et je collabore étroitement avec mes clients pour créer des solutions efficaces, évolutives et conviviales. Travaillons ensemble pour donner vie à vos idées !",
+    "screenHint": "Cliquez sur l'écran pour basculer"
+  },
+  "experience": {
+    "subText": "Ce que j'ai accompli jusqu'ici",
+    "title": "Expérience professionnelle."
+  },
+  "tech": {
+    "title": "Technologies que j'utilise."
+  },
+  "works": {
+    "subText": "Mon travail",
+    "title": "Projets.",
+    "description": "Ces projets mettent en valeur mes compétences à travers des exemples concrets. Chaque projet est brièvement décrit avec des liens vers les dépôts et les démos.",
+    "liveDemo": "Démo en direct"
+  },
+  "testimonials": {
+    "subText": "Ce que disent les autres",
+    "title": "Témoignages."
+  },
+  "resume": {
+    "title": "Mon CV",
+    "subText": "Télécharger ou prévisualiser",
+    "download": "Télécharger le PDF",
+    "preview": "Aperçu du CV",
+    "noPreview": "L'aperçu PDF n'est pas disponible. Veuillez télécharger le fichier."
+  },
+  "contact": {
+    "subText": "Entrer en contact",
+    "title": "Contact.",
+    "name": "Votre nom",
+    "namePlaceholder": "Quel est votre nom ?",
+    "email": "Votre email",
+    "emailPlaceholder": "Quel est votre email ?",
+    "message": "Votre message",
+    "messagePlaceholder": "Que voulez-vous dire ?",
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "successMsg": "Merci. Je vous répondrai dès que possible.",
+    "errorMsg": "Une erreur s'est produite. Veuillez réessayer."
+  }
+}
