@@ -1,4 +1,17 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
+const SpaRedirectHandler = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirect = params.get("p");
+    if (redirect) {
+      navigate(redirect, { replace: true });
+    }
+  }, []);
+  return null;
+};
 
 import {
   Navbar,
@@ -52,6 +65,7 @@ const HomePage = () => (
 const App = () => {
   return (
     <BrowserRouter>
+      <SpaRedirectHandler />
       {/* Mesh gradient background — fixed, covers full viewport */}
       <div className="mesh-gradient-bg" />
 
