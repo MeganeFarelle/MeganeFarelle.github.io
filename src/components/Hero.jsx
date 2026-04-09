@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className="relative w-full min-h-screen mx-auto flex items-center">
       <div
-        className={`max-w-7xl mx-auto ${styles.paddingX} w-full flex flex-col-reverse sm:flex-row items-center justify-between gap-10 pt-28 pb-16`}
+        className={`max-w-7xl mx-auto ${styles.paddingX} w-full flex flex-col-reverse sm:flex-row items-center justify-between gap-10 pt-28 pb-32 sm:pb-16`}
       >
         {/* ── Left : text ── */}
         <div className="flex flex-row items-start gap-5 flex-1">
