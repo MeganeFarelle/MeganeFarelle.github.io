@@ -89,8 +89,6 @@ const Navbar = () => {
           <li>
             <Link
               to="/resume"
-              target="_blank"
-              rel="noopener noreferrer"
               className={`text-[17px] font-medium transition-colors duration-200 ${
                 location.pathname === "/resume"
                   ? "text-white"
@@ -149,8 +147,6 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/resume"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="font-medium cursor-pointer text-[16px] text-secondary"
                   onClick={() => setToggle(false)}
                 >
