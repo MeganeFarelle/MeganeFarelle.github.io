@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import logoText from "./logo-text.png";
+import bitmoji from "./bitmoji.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,8 +32,18 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+// Real projects
+import dev4earth from "./dev4earth.png";
+import symfonyBackend from "./symfony-backend.png";
+import awsRecognition from "./aws-recognition.png";
+import pdfAnonymization from "./pdf-anonymization.png";
+import qland from "./qland.png";
+import dev4earthWorld from "./dev4earth-world.png";
+
 export {
   logo,
+  logoText,
+  bitmoji,
   backend,
   creator,
   mobile,
@@ -59,4 +71,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  dev4earth,
+  symfonyBackend,
+  awsRecognition,
+  pdfAnonymization,
+  qland,
+  dev4earthWorld,
 };
