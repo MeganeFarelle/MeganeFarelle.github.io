@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 const SpaRedirectHandler = () => {
@@ -74,7 +74,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/resume" element={<ResumePage />} />
+          {/* CV masqué temporairement (28/07/2026) — restaurer la ligne ResumePage pour le réafficher */}
+          <Route path="/resume" element={<Navigate to="/" replace />} />
+          {/* <Route path="/resume" element={<ResumePage />} /> */}
           <Route path="/links" element={<LinksPage />} />
         </Routes>
       </div>

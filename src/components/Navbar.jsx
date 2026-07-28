@@ -5,6 +5,9 @@ import { useTranslation } from "react-i18next";
 import { styles } from "../styles";
 import { logo, logoText, menu, close } from "../assets";
 
+// CV masqué temporairement (28/07/2026) — repasser à false pour le réafficher
+const HIDE_RESUME = true;
+
 // Anchor sections (smooth scroll on homepage)
 const anchorLinks = [
   { id: "about" },
@@ -85,19 +88,21 @@ const Navbar = () => {
             </li>
           ))}
 
-          {/* Resume — separate route */}
-          <li>
-            <Link
-              to="/resume"
-              className={`text-[17px] font-medium transition-colors duration-200 ${
-                location.pathname === "/resume"
-                  ? "text-white"
-                  : "text-secondary hover:text-white"
-              }`}
-            >
-              {t("nav.resume")}
-            </Link>
-          </li>
+          {/* Resume — separate route. Masqué temporairement : repasser HIDE_RESUME à false pour le réafficher */}
+          {!HIDE_RESUME && (
+            <li>
+              <Link
+                to="/resume"
+                className={`text-[17px] font-medium transition-colors duration-200 ${
+                  location.pathname === "/resume"
+                    ? "text-white"
+                    : "text-secondary hover:text-white"
+                }`}
+              >
+                {t("nav.resume")}
+              </Link>
+            </li>
+          )}
 
           {/* Language toggle */}
           <li>
@@ -144,15 +149,17 @@ const Navbar = () => {
                   </button>
                 </li>
               ))}
-              <li>
-                <Link
-                  to="/resume"
-                  className="font-medium cursor-pointer text-[16px] text-secondary"
-                  onClick={() => setToggle(false)}
-                >
-                  {t("nav.resume")}
-                </Link>
-              </li>
+              {!HIDE_RESUME && (
+                <li>
+                  <Link
+                    to="/resume"
+                    className="font-medium cursor-pointer text-[16px] text-secondary"
+                    onClick={() => setToggle(false)}
+                  >
+                    {t("nav.resume")}
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         </div>
