@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && mkdir -p dist/links dist/resume && cp dist/index.html dist/links/index.html && cp dist/index.html dist/resume/index.html",
     "preview": "vite preview"
   },
   "dependencies": {
