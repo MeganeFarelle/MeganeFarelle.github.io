@@ -63,6 +63,17 @@
     "sending": "Sending...",
     "successMsg": "Thank you. I will get back to you as soon as possible.",
     "errorMsg": "Something went wrong. Please try again."
-  }
+  },
 
+  "links": {
+    "tagline": "I code, I learn, I share.",
+    "youtube": "Tech tutorials in French",
+    "tiktok": "Dev & DevSecOps in short videos",
+    "linkedin": "My tech journey, every week",
+    "instagram": "Behind the scenes",
+    "github": "My code and projects",
+    "twitter": "Live tech updates",
+    "resume": "View or download my resume",
+    "discord": "The community, coming soon"
+  }
 }

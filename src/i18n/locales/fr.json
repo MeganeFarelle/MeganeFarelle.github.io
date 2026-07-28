@@ -63,5 +63,17 @@
   "sending": "Envoi en cours...",
   "successMsg": "Merci. Je vous répondrai dès que possible.",
   "errorMsg": "Une erreur s'est produite. Veuillez réessayer."
-}
+},
+
+  "links": {
+    "tagline": "Je code, j'apprends, je transmets.",
+    "youtube": "Tutoriels tech en français",
+    "tiktok": "Dev & DevSecOps en vidéos courtes",
+    "linkedin": "Mon parcours tech, chaque semaine",
+    "instagram": "Les coulisses",
+    "github": "Mon code et mes projets",
+    "twitter": "Mes actus tech en direct",
+    "resume": "Voir ou télécharger mon CV",
+    "discord": "La communauté, bientôt"
+  }
 }

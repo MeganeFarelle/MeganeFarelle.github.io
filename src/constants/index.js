@@ -182,6 +182,8 @@ const projects = [
     name: "Dev4Earth — Data Storytelling CMS",
     description:
       "A web-based data storytelling CMS to create editorial articles enriched with interactive visualisations, dashboards, and custom themes using a modular and scalable architecture.",
+    description_fr:
+      "Un CMS de data storytelling pour créer des articles éditoriaux enrichis de visualisations interactives, de dashboards et de thèmes personnalisés, sur une architecture modulaire et évolutive.",
     tags: [
       { name: "React",    color: "brand-text-gradient" },
       { name: "Node.js",  color: "pink-text-gradient" },
@@ -194,6 +196,8 @@ const projects = [
     name: "Symfony Advanced Backend Platform",
     description:
       "A backend-focused Symfony project featuring auth, Doctrine ORM, event listeners, API Platform, email verification, and an admin dashboard — built from scratch.",
+    description_fr:
+      "Un projet Symfony orienté back-end : authentification, Doctrine ORM, event listeners, API Platform, vérification d'email et dashboard d'administration, construit de zéro.",
     tags: [
       { name: "Symfony",    color: "brand-text-gradient" },
       { name: "PHP",        color: "orange-text-gradient" },
@@ -206,6 +210,8 @@ const projects = [
     name: "AWS Vehicle Recognition Pipeline",
     description:
       "Event-driven vehicle recognition system using AWS Rekognition, S3, Lambda, SQS and SNS — a scalable, serverless cloud architecture for automated label extraction.",
+    description_fr:
+      "Système de reconnaissance de véhicules piloté par événements avec AWS Rekognition, S3, Lambda, SQS et SNS : une architecture cloud serverless et scalable pour l'extraction automatique de labels.",
     tags: [
       { name: "AWS",     color: "orange-text-gradient" },
       { name: "Lambda",  color: "pink-text-gradient" },
@@ -218,6 +224,8 @@ const projects = [
     name: "NLP PDF Anonymization & PII Detection",
     description:
       "NLP-driven system combining transformer models, spaCy and Microsoft Presidio to automatically detect and anonymize sensitive information in French PDF documents.",
+    description_fr:
+      "Système NLP combinant modèles transformers, spaCy et Microsoft Presidio pour détecter et anonymiser automatiquement les informations sensibles dans des documents PDF en français.",
     tags: [
       { name: "Python",   color: "brand-text-gradient" },
       { name: "spaCy",    color: "pink-text-gradient" },
@@ -230,6 +238,8 @@ const projects = [
     name: "QLand — Quantum Desertification Analysis",
     description:
       "NYU Quantum Hackathon project combining classical ML (Random Forest, SVM) with quantum optimisation (QAOA) to monitor desertification via satellite indicators (NDVI, LST).",
+    description_fr:
+      "Projet du NYU Quantum Hackathon combinant ML classique (Random Forest, SVM) et optimisation quantique (QAOA) pour suivre la désertification via des indicateurs satellite (NDVI, LST).",
     tags: [
       { name: "Python",  color: "brand-text-gradient" },
       { name: "QAOA",    color: "pink-text-gradient" },
@@ -242,6 +252,8 @@ const projects = [
     name: "Dev4Earth World — 3D Climate Experience",
     description:
       "An immersive 3D web experience built with Three.js where users explore a virtual world with character movement, physics, sound and narrative modals on climate data.",
+    description_fr:
+      "Une expérience web 3D immersive en Three.js : un monde virtuel à explorer avec déplacement du personnage, physique, son et fenêtres narratives sur les données climatiques.",
     tags: [
       { name: "Three.js",   color: "brand-text-gradient" },
       { name: "WebGL",      color: "pink-text-gradient" },

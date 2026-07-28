@@ -26,6 +26,7 @@ import {
 } from "./components";
 import Footer from "./components/Footer";
 import ResumePage from "./pages/ResumePage";
+import LinksPage from "./pages/LinksPage";
 
 const HomePage = () => (
   <div className="relative z-0">
@@ -74,6 +75,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<ResumePage />} />
+          <Route path="/links" element={<LinksPage />} />
         </Routes>
       </div>
     </BrowserRouter>
